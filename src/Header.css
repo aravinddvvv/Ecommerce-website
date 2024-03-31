@@ -1,0 +1,20 @@
+.image{
+    height: 90px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+.Nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background: rgba(128, 128, 128, 0.698);
+    backdrop-filter: blur(10px);
+  }
+  .btn{
+    cursor: pointer;
+  }
+  .btn:hover{
+    color: red;
+  }
